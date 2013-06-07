@@ -1,6 +1,7 @@
 *.gem
 *.rbc
 .bundle
+.idea/workspace.xml
 .config
 coverage
 InstalledFiles
