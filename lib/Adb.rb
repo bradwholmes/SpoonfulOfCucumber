@@ -1,12 +1,14 @@
 require 'calabash-android/helpers'
 
 class Adb
-  def adb_command
+  def self.adb_command
     android_home = ENV['ANDROID_HOME']
-    if is_windows?
-      "#{android_home}\\platform-tools\adb.exe"
-    else
-      "#{android_home}/platform-tools/adb"
-    end
+    is_windows? ? "#{android_home}\\platform-tools\adb.exe" : "#{android_home}/platform-tools/adb"
+  end
+
+  def self.devices
+    lines = `#{adb_command} devices`.split("\n")
+    lines.shift
+    lines.collect { |l| l.split("\t").first}
   end
 end

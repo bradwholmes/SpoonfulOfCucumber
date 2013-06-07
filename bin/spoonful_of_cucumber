@@ -1,0 +1,7 @@
+#!/user/bin/env ruby
+
+require 'spoonful_of_cucumber'
+
+puts 'Starting'
+Spoonful_Of_Cucumber.main
+
