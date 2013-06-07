@@ -14,7 +14,7 @@ class Spoonful_Of_Cucumber
 
     Adb.devices.each_with_index do |device, index|
       Thread.new(device) {
-        command = "calabash-android run #{apk} -s #{device} -p #{port + index}"
+        command = "calabash-android run #{apk} ADB_DEVICE_ARG=#{device} TEST_SERVER_PORT=#{port + index}"
         puts command
         output = `#{command}`
         results << output
