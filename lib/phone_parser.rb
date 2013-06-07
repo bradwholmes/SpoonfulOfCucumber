@@ -1,3 +1,18 @@
 class Phone_Parser
-  # To change this template use File | Settings | File Templates.
+  def parse (str)
+    features = str.split(/Feature:/)
+
+    for line in lines
+
+    end
+
+  end
+
+  def isFeature(str)
+    return str =~ /Features/
+  end
+
+  def isScenarios(str)
+    return str =~ /Scenarios/
+  end
 end
