@@ -15,17 +15,17 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="awesome_print (v1.1.0, RVM: ruby-2.0.0-p195) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, RVM: ruby-2.0.0-p195) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="calabash-android (v0.4.6, RVM: ruby-2.0.0-p195) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="cucumber (v1.3.2, RVM: ruby-2.0.0-p195) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.4, RVM: ruby-2.0.0-p195) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="gherkin (v2.12.0, RVM: ruby-2.0.0-p195) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="json (v1.8.0, RVM: ruby-2.0.0-p195) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.7.6, RVM: ruby-2.0.0-p195) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="retriable (v1.3.3, RVM: ruby-2.0.0-p195) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rubyzip (v0.9.9, RVM: ruby-2.0.0-p195) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="slowhandcuke (v0.0.3, RVM: ruby-2.0.0-p195) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="awesome_print (v1.1.0, jruby-1.7.3-p385) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.0, jruby-1.7.3-p385) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="calabash-android (v0.4.3, jruby-1.7.3-p385) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="cucumber (v1.2.5, jruby-1.7.3-p385) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.3, jruby-1.7.3-p385) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="gherkin (v2.11.8, jruby-1.7.3-p385) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v1.7.7, jruby-1.7.3-p385) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.7.2, jruby-1.7.3-p385) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="retriable (v1.3.3, jruby-1.7.3-p385) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubyzip (v0.9.9, jruby-1.7.3-p385) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="slowhandcuke (v0.0.3, jruby-1.7.3-p385) [gem]" level="application" />
   </component>
 </module>
 
