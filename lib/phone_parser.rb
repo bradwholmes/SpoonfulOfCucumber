@@ -1,4 +1,4 @@
-require '../lib/Results'
+require 'Results'
 
 class Phone_Parser
   def self.parse(result)
